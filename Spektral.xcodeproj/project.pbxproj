@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E4A6BE9DB031AAE5F2CA6A1 /* Pods_Spektral.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36B41359E54D1912DEDEF9A /* Pods_Spektral.framework */; };
+		3AFBB97D284A8148007467D8 /* SpektralApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB97C284A8148007467D8 /* SpektralApp.swift */; };
+		3AFBB97F284A8148007467D8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB97E284A8148007467D8 /* ContentView.swift */; };
+		3AFBB981284A8149007467D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBB980284A8149007467D8 /* Assets.xcassets */; };
+		3AFBB984284A8149007467D8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFBB983284A8149007467D8 /* Preview Assets.xcassets */; };
+		3AFBB98E284A8149007467D8 /* SpektralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB98D284A8149007467D8 /* SpektralTests.swift */; };
+		3AFBB998284A8149007467D8 /* SpektralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB997284A8149007467D8 /* SpektralUITests.swift */; };
+		3AFBB99A284A8149007467D8 /* SpektralUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFBB999284A8149007467D8 /* SpektralUITestsLaunchTests.swift */; };
+		BF2D4F6E3DFC29E1C2FC0757 /* Pods_Spektral_SpektralUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6602441070D6A122860C2A65 /* Pods_Spektral_SpektralUITests.framework */; };
+		D979FD6B1B55C597DD3E64DC /* Pods_SpektralTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDF829A3E3DFB811964EFBC /* Pods_SpektralTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFBB98A284A8149007467D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFBB971284A8148007467D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFBB978284A8148007467D8;
+			remoteInfo = Spektral;
+		};
+		3AFBB994284A8149007467D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFBB971284A8148007467D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFBB978284A8148007467D8;
+			remoteInfo = Spektral;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		305D46CA36D8D309F9CB73CD /* Pods-SpektralTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpektralTests.debug.xcconfig"; path = "Target Support Files/Pods-SpektralTests/Pods-SpektralTests.debug.xcconfig"; sourceTree = "<group>"; };
+		33670E27F1FC92523995948D /* Pods-Spektral-SpektralUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spektral-SpektralUITests.release.xcconfig"; path = "Target Support Files/Pods-Spektral-SpektralUITests/Pods-Spektral-SpektralUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AFBB979284A8148007467D8 /* Spektral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spektral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBB97C284A8148007467D8 /* SpektralApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpektralApp.swift; sourceTree = "<group>"; };
+		3AFBB97E284A8148007467D8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AFBB980284A8149007467D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFBB983284A8149007467D8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFBB989284A8149007467D8 /* SpektralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpektralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBB98D284A8149007467D8 /* SpektralTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpektralTests.swift; sourceTree = "<group>"; };
+		3AFBB993284A8149007467D8 /* SpektralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpektralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFBB997284A8149007467D8 /* SpektralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpektralUITests.swift; sourceTree = "<group>"; };
+		3AFBB999284A8149007467D8 /* SpektralUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpektralUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DBABCD2CF07F6E62BCFD392 /* Pods-Spektral.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spektral.debug.xcconfig"; path = "Target Support Files/Pods-Spektral/Pods-Spektral.debug.xcconfig"; sourceTree = "<group>"; };
+		438344463D0850AA17EC6210 /* Pods-Spektral-SpektralUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spektral-SpektralUITests.debug.xcconfig"; path = "Target Support Files/Pods-Spektral-SpektralUITests/Pods-Spektral-SpektralUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CDF829A3E3DFB811964EFBC /* Pods_SpektralTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpektralTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E594F791AAB1F4572FECA2 /* Pods-Spektral.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spektral.release.xcconfig"; path = "Target Support Files/Pods-Spektral/Pods-Spektral.release.xcconfig"; sourceTree = "<group>"; };
+		6602441070D6A122860C2A65 /* Pods_Spektral_SpektralUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spektral_SpektralUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA93F2F4B01BA3EA154A5377 /* Pods-SpektralTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpektralTests.release.xcconfig"; path = "Target Support Files/Pods-SpektralTests/Pods-SpektralTests.release.xcconfig"; sourceTree = "<group>"; };
+		E36B41359E54D1912DEDEF9A /* Pods_Spektral.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spektral.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AFBB976284A8148007467D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4A6BE9DB031AAE5F2CA6A1 /* Pods_Spektral.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB986284A8149007467D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D979FD6B1B55C597DD3E64DC /* Pods_SpektralTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB990284A8149007467D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF2D4F6E3DFC29E1C2FC0757 /* Pods_Spektral_SpektralUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA1A229284A83C20023AE57 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB97E284A8148007467D8 /* ContentView.swift */,
+				3AFBB97C284A8148007467D8 /* SpektralApp.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3AA1A22A284A83DC0023AE57 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3AA1A22B284A83F40023AE57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3AA1A22C284A83FB0023AE57 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3AA1A22D284A84000023AE57 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		3AFBB970284A8148007467D8 = {
+			isa = PBXGroup;
+			children = (
+				3AFBB97B284A8148007467D8 /* Spektral */,
+				3AFBB98C284A8149007467D8 /* SpektralTests */,
+				3AFBB996284A8149007467D8 /* SpektralUITests */,
+				3AFBB97A284A8148007467D8 /* Products */,
+				63963576D58D67D78CC58CD7 /* Pods */,
+				5AD61CEAC167CE265F2708F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFBB97A284A8148007467D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB979284A8148007467D8 /* Spektral.app */,
+				3AFBB989284A8149007467D8 /* SpektralTests.xctest */,
+				3AFBB993284A8149007467D8 /* SpektralUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFBB97B284A8148007467D8 /* Spektral */ = {
+			isa = PBXGroup;
+			children = (
+				3AA1A22D284A84000023AE57 /* Features */,
+				3AA1A22C284A83FB0023AE57 /* Models */,
+				3AA1A22B284A83F40023AE57 /* Views */,
+				3AA1A22A284A83DC0023AE57 /* ViewModels */,
+				3AA1A229284A83C20023AE57 /* Main */,
+				3AFBB980284A8149007467D8 /* Assets.xcassets */,
+				3AFBB982284A8149007467D8 /* Preview Content */,
+			);
+			path = Spektral;
+			sourceTree = "<group>";
+		};
+		3AFBB982284A8149007467D8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB983284A8149007467D8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AFBB98C284A8149007467D8 /* SpektralTests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB98D284A8149007467D8 /* SpektralTests.swift */,
+			);
+			path = SpektralTests;
+			sourceTree = "<group>";
+		};
+		3AFBB996284A8149007467D8 /* SpektralUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFBB997284A8149007467D8 /* SpektralUITests.swift */,
+				3AFBB999284A8149007467D8 /* SpektralUITestsLaunchTests.swift */,
+			);
+			path = SpektralUITests;
+			sourceTree = "<group>";
+		};
+		5AD61CEAC167CE265F2708F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36B41359E54D1912DEDEF9A /* Pods_Spektral.framework */,
+				6602441070D6A122860C2A65 /* Pods_Spektral_SpektralUITests.framework */,
+				4CDF829A3E3DFB811964EFBC /* Pods_SpektralTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63963576D58D67D78CC58CD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DBABCD2CF07F6E62BCFD392 /* Pods-Spektral.debug.xcconfig */,
+				51E594F791AAB1F4572FECA2 /* Pods-Spektral.release.xcconfig */,
+				438344463D0850AA17EC6210 /* Pods-Spektral-SpektralUITests.debug.xcconfig */,
+				33670E27F1FC92523995948D /* Pods-Spektral-SpektralUITests.release.xcconfig */,
+				305D46CA36D8D309F9CB73CD /* Pods-SpektralTests.debug.xcconfig */,
+				DA93F2F4B01BA3EA154A5377 /* Pods-SpektralTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AFBB978284A8148007467D8 /* Spektral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFBB99D284A8149007467D8 /* Build configuration list for PBXNativeTarget "Spektral" */;
+			buildPhases = (
+				D2F4C78D6F8E98096765C282 /* [CP] Check Pods Manifest.lock */,
+				3AFBB975284A8148007467D8 /* Sources */,
+				3AFBB976284A8148007467D8 /* Frameworks */,
+				3AFBB977284A8148007467D8 /* Resources */,
+				397C191F9D1F2227D2C2CD27 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spektral;
+			productName = Spektral;
+			productReference = 3AFBB979284A8148007467D8 /* Spektral.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFBB988284A8149007467D8 /* SpektralTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFBB9A0284A8149007467D8 /* Build configuration list for PBXNativeTarget "SpektralTests" */;
+			buildPhases = (
+				E0F679FE574BD632E7A05493 /* [CP] Check Pods Manifest.lock */,
+				3AFBB985284A8149007467D8 /* Sources */,
+				3AFBB986284A8149007467D8 /* Frameworks */,
+				3AFBB987284A8149007467D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFBB98B284A8149007467D8 /* PBXTargetDependency */,
+			);
+			name = SpektralTests;
+			productName = SpektralTests;
+			productReference = 3AFBB989284A8149007467D8 /* SpektralTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFBB992284A8149007467D8 /* SpektralUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFBB9A3284A8149007467D8 /* Build configuration list for PBXNativeTarget "SpektralUITests" */;
+			buildPhases = (
+				060C3DD261B1AEF769BC227C /* [CP] Check Pods Manifest.lock */,
+				3AFBB98F284A8149007467D8 /* Sources */,
+				3AFBB990284A8149007467D8 /* Frameworks */,
+				3AFBB991284A8149007467D8 /* Resources */,
+				9E5992C23963AC779977C8A7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFBB995284A8149007467D8 /* PBXTargetDependency */,
+			);
+			name = SpektralUITests;
+			productName = SpektralUITests;
+			productReference = 3AFBB993284A8149007467D8 /* SpektralUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFBB971284A8148007467D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3AFBB978284A8148007467D8 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					3AFBB988284A8149007467D8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3AFBB978284A8148007467D8;
+					};
+					3AFBB992284A8149007467D8 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 3AFBB978284A8148007467D8;
+					};
+				};
+			};
+			buildConfigurationList = 3AFBB974284A8148007467D8 /* Build configuration list for PBXProject "Spektral" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AFBB970284A8148007467D8;
+			productRefGroup = 3AFBB97A284A8148007467D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFBB978284A8148007467D8 /* Spektral */,
+				3AFBB988284A8149007467D8 /* SpektralTests */,
+				3AFBB992284A8149007467D8 /* SpektralUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AFBB977284A8148007467D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB984284A8149007467D8 /* Preview Assets.xcassets in Resources */,
+				3AFBB981284A8149007467D8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB987284A8149007467D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB991284A8149007467D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060C3DD261B1AEF769BC227C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spektral-SpektralUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		397C191F9D1F2227D2C2CD27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spektral/Pods-Spektral-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spektral/Pods-Spektral-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spektral/Pods-Spektral-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E5992C23963AC779977C8A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spektral-SpektralUITests/Pods-Spektral-SpektralUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Spektral-SpektralUITests/Pods-Spektral-SpektralUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Spektral-SpektralUITests/Pods-Spektral-SpektralUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2F4C78D6F8E98096765C282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spektral-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F679FE574BD632E7A05493 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpektralTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AFBB975284A8148007467D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB97F284A8148007467D8 /* ContentView.swift in Sources */,
+				3AFBB97D284A8148007467D8 /* SpektralApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB985284A8149007467D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB98E284A8149007467D8 /* SpektralTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFBB98F284A8149007467D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFBB99A284A8149007467D8 /* SpektralUITestsLaunchTests.swift in Sources */,
+				3AFBB998284A8149007467D8 /* SpektralUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFBB98B284A8149007467D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFBB978284A8148007467D8 /* Spektral */;
+			targetProxy = 3AFBB98A284A8149007467D8 /* PBXContainerItemProxy */;
+		};
+		3AFBB995284A8149007467D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFBB978284A8148007467D8 /* Spektral */;
+			targetProxy = 3AFBB994284A8149007467D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AFBB99B284A8149007467D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AFBB99C284A8149007467D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFBB99E284A8149007467D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBABCD2CF07F6E62BCFD392 /* Pods-Spektral.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spektral/Preview Content\"";
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.Spektral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFBB99F284A8149007467D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E594F791AAB1F4572FECA2 /* Pods-Spektral.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Spektral/Preview Content\"";
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.Spektral;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFBB9A1284A8149007467D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 305D46CA36D8D309F9CB73CD /* Pods-SpektralTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.SpektralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spektral.app/Spektral";
+			};
+			name = Debug;
+		};
+		3AFBB9A2284A8149007467D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA93F2F4B01BA3EA154A5377 /* Pods-SpektralTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.SpektralTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spektral.app/Spektral";
+			};
+			name = Release;
+		};
+		3AFBB9A4284A8149007467D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438344463D0850AA17EC6210 /* Pods-Spektral-SpektralUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.SpektralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spektral;
+			};
+			name = Debug;
+		};
+		3AFBB9A5284A8149007467D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33670E27F1FC92523995948D /* Pods-Spektral-SpektralUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FN4Y62X46R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akcosh.me.SpektralUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Spektral;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AFBB974284A8148007467D8 /* Build configuration list for PBXProject "Spektral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB99B284A8149007467D8 /* Debug */,
+				3AFBB99C284A8149007467D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFBB99D284A8149007467D8 /* Build configuration list for PBXNativeTarget "Spektral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB99E284A8149007467D8 /* Debug */,
+				3AFBB99F284A8149007467D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFBB9A0284A8149007467D8 /* Build configuration list for PBXNativeTarget "SpektralTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB9A1284A8149007467D8 /* Debug */,
+				3AFBB9A2284A8149007467D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFBB9A3284A8149007467D8 /* Build configuration list for PBXNativeTarget "SpektralUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFBB9A4284A8149007467D8 /* Debug */,
+				3AFBB9A5284A8149007467D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AFBB971284A8148007467D8 /* Project object */;
+}
